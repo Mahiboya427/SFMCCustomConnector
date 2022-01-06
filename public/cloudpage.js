@@ -1,6 +1,14 @@
 <script runat=server>
-    Platform.Load("Core", "1.1.5");
+    Platform.Load("Core", "1.1.5");	
+    Platform.Function.ContentBlockByKey('ssjs-lib');
 
+
+    /* POST parameters - these data is pushed from the Cloudpage SSJS wrapper script 
+     * The data object is created in the wrapper script
+     */
+    	var ID = data.ID,
+        EmailAddress = data.EmailAddress,
+        journeyData = data.JourneyEntryData;
 
     // load the SSJS library
     Platform.Function.ContentBlockByKey('ssjs-lib');
