@@ -7,10 +7,10 @@
     "execute": {
       "inArguments": [
         { "contactKey": "{{Contact.Key}}" },
-        { "FirstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}"},
-        { "LastName": "{{Contact.Attribute.JourneyEntrySource.LastName}}"}
+        { "FirstName": "{{Contact.FirstName}}"},
+        { "LastName": "{{Contact.LastName}}"}
       ],
-      "url":"https://enpwtmlrjddlc.x.pipedream.net/post"
+      "url":"https://enpwtmlrjddlc.x.pipedream.net/execute"
     }
   },
   "configurationArguments": {
