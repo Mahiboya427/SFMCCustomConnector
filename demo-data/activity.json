@@ -15,7 +15,7 @@
   },
   "configurationArguments": {
     "publish": {
-      "url": "https://ena637b1klq3e.x.pipedream.net/publish"
+      "url": "https://ena637b1klq3e.x.pipedream.net/execute"
     }
   },
   "metaData": {
