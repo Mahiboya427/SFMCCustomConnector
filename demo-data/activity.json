@@ -7,8 +7,8 @@
     "execute": {
       "inArguments": [
         { "contactKey": "{{Contact.Key}}" },
-        { "FirstName": "{{Contact.Attribute.[FirstName]}}"},
-        { "LastName": "{{Contact.Attribute.[LastName]}}"}
+        { "FirstName": "{{Contact.Attribute.JourneyEntrySource.[FirstName]}}"},
+        { "LastName": "{{Contact.Attribute.JourneyEntrySource.[LastName]}}"}
       ],
       "url":"https://webhook.site/b86dbb84-ea86-4839-ba42-99dcb2f512bf/execute"
     }
