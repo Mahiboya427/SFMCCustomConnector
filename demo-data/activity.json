@@ -6,9 +6,12 @@
   "arguments": {
     "execute": {
       "inArguments": [
-        { "contactKey": "{{Contact.Key}}" },
-        { "FirstName": "{{Contact.Attribute.JourneyEntrySource.[FirstName]}}"},
-        { "LastName": "{{Contact.Attribute.JourneyEntrySource.[LastName]}}"}
+        { "regno": "{{Contact.regNo}}" },
+        { "Name": "{{Contact.Attribute.JourneyEntrySource.Name}}"},
+        { "Email": "{{Contact.Attribute.JourneyEntrySource.Email}}"},
+        { "age": "{{Contact.Attribute.JourneyEntrySource.age}}"},
+        { "Domain": "{{Contact.Attribute.JourneyEntrySource.Domain}}"}
+        
       ],
       "url":"https://webhook.site/b86dbb84-ea86-4839-ba42-99dcb2f512bf/execute"
     }
