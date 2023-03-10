@@ -13,12 +13,12 @@
         { "Domain": "{{Contact.Attribute.JourneyEntrySource.Domain}}"}
         
       ],
-      "url":"https://webhook.site/b86dbb84-ea86-4839-ba42-99dcb2f512bf/execute"
+      "url":"https://webhook.site/27d5f335-c012-4792-bb9f-b4b6ace3743f/execute"
     }
   },
   "configurationArguments": {
     "publish": {
-      "url": "https://webhook.site/b86dbb84-ea86-4839-ba42-99dcb2f512bf/publish"
+      "url": "https://webhook.site/27d5f335-c012-4792-bb9f-b4b6ace3743f/publish"
     }
   },
   "metaData": {
