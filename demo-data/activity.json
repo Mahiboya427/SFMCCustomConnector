@@ -7,15 +7,15 @@
     "execute": {
       "inArguments": [
         { "contactKey": "{{Contact.Key}}" },
-        { "FirstName": "{{Contact.event.FirstName}}"},
-        { "LastName": "{{Contact.event.LastName}}"}
+        { "FirstName": "{{Contact.FirstName}}"},
+        { "LastName": "{{Contact.LastName}}"}
       ],
-      "url":"https://ena637b1klq3e.x.pipedream.net/execute"
+      "url":"https://enjw2zexcc43g.x.pipedream.net/execute"
     }
   },
   "configurationArguments": {
     "publish": {
-      "url": "https://ena637b1klq3e.x.pipedream.net/execute"
+      "url": "https://enjw2zexcc43g.x.pipedream.net/publish"
     }
   },
   "metaData": {
