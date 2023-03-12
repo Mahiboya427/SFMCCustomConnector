@@ -6,9 +6,9 @@
   "arguments": {
     "execute": {
       "inArguments": [
-        { "roll": "{{Contact.roll}}" },
-        { "Name": "{{Contact.Attribute.custom.name}}"},
-        { "Email": "{{Contact.Attribute.custom.email}}"}
+        { "key": "{{Contact.key}}" },
+        { "Name": "{{Contact.Attribute.people.name}}"},
+        { "Email": "{{Contact.Attribute.people.email}}"}
         
       ],
       "url":"https://en209reyn436l.x.pipedream.net/execute"
