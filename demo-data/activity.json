@@ -6,11 +6,10 @@
   "arguments": {
     "execute": {
       "inArguments": [
-        { "regno": "{{Contact.regNo}}" },
-        { "Name": "{{Contact.Attribute.BoyaMahesh_DE.name}}"},
-        { "Email": "{{Contact.Attribute.BoyaMahesh_DE.email}}"},
-        { "age": "{{Contact.Attribute.BoyaMahesh_DE.age}}"},
-        { "domain": "{{Contact.Attribute.BoyaMahesh_DE.domain}}"}
+        { "roll": "{{Contact.roll}}" },
+        { "Name": "{{Contact.Attribute.custom.name}}"},
+        { "Email": "{{Contact.Attribute.custom.email}}"}
+        
       ],
       "url":"https://en209reyn436l.x.pipedream.net/execute"
     }
