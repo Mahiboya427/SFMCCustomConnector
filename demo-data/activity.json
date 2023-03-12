@@ -7,18 +7,18 @@
     "execute": {
       "inArguments": [
         { "regno": "{{Contact.regNo}}" },
-        { "Name": "{{Contact.Attribute.JourneyEntrySource.Name}}"},
-        { "Email": "{{Contact.Attribute.JourneyEntrySource.Email}}"},
-        { "age": "{{Contact.Attribute.JourneyEntrySource.age}}"},
-        { "Domain": "{{Contact.Attribute.JourneyEntrySource.Domain}}"}
+        { "Name": "{{Contact.Attribute.BoyaMahesh_DE.Name}}"},
+        { "Email": "{{Contact.Attribute.BoyaMahesh_DE.Email}}"},
+        { "age": "{{Contact.Attribute.BoyaMahesh_DE.age}}"},
+        { "Domain": "{{Contact.Attribute.BoyaMahesh_DE.Domain}}"}
         
       ],
-      "url":"https://webhook.site/27d5f335-c012-4792-bb9f-b4b6ace3743f/execute"
+      "url":"https://en209reyn436l.x.pipedream.net/execute"
     }
   },
   "configurationArguments": {
     "publish": {
-      "url": "https://webhook.site/27d5f335-c012-4792-bb9f-b4b6ace3743f/publish"
+      "url": "https://en209reyn436l.x.pipedream.net/publish"
     }
   },
   "metaData": {
