@@ -7,8 +7,8 @@
     "execute": {
       "inArguments": [
         { "regno": "{{Contact.key}}" },
-        { "Name": "{{Contact.Attribute.people.name}}"},
-        { "Email": "{{Contact.Attribute.people.email}}"}
+        { "Name": "{{Event.5b0ae801-91bd-d3ae-abc0-feb4b4ac772f.name}}"},
+        { "Email": "{{Event.5b0ae801-91bd-d3ae-abc0-feb4b4ac772f.email}}"}
       ],
       "url":"https://en209reyn436l.x.pipedream.net/execute"
     }
